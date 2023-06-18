@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Teknisa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="container">
+        <header class="header">
+
+            <h3 class="letra">Validador de cpf</h3>
+            <p class="p">Projeto Teknisa</p>
+
+        </header>
+        
+        <main class="body">
+            
+            <div class="txt">
+
+                <input type="text" id="cpf" placeholder="Insira o seu CPF" maxlength="14">
+                <button id="btValidar" onclick="validaCPF()">Validar</button>
+
+            </div>
+                         
+            <span class="span" id="resultado"></span>
+            
+        </main>
+
+        <footer class="footer">
+
+           <p class="pfot">@Produzido por André Augusto</p>
+
+        </footer>
+    </div>
+
+</body>
+</html>
